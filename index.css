@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    font-family: Helvetica ,Arial ,sans-serif, Color, Symbol, Color;
+    color: #313131;
+}
+
+.header {
+    padding: 40px;
+    border: solid 3px #ff0707;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .menu {
+    width: 15%;
+    padding: 30px;
+    height: 800px;
+    border: solid 3px #eaea03;
+}
+
+.footer .content {
+    width: 85%;
+    padding: 30px;
+    height: 800px;
+    border: solid 3px #000000;
+}
