@@ -1,0 +1,289 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    font-family: Helvetica ,Arial ,sans-serif, Color, Symbol, Color;
+    color: #313131;
+   
+}
+
+.header {
+    padding: 40px;
+    border: solid 3px #ff0707;
+}
+.footer {
+    display: flex;
+}
+
+.footer .menu {
+    width: 15%;
+    padding: 30px;
+    height: 800px;
+    border: solid 3px #eaea03;
+}
+
+.footer .content {
+    width: 85%;
+    padding: 30px;
+    height: 800px;
+    background-color:#F8F8F8;
+}
+
+.hs h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lich_hen2 {
+    border-radius: 7px;
+    background-color: #fff;
+    margin-top: 2%;
+    height: 600px;
+}
+.lich_hen2 .secmenu ul{
+  list-style-type: none;
+  border-bottom: #b7b5b5 solid 1px ;
+  }
+.lich_hen2 .secmenu ul li{
+color: #f1f1f1;
+  display: inline-block;
+  padding: 0 15px;
+  
+}
+.lich_hen2 .secmenu ul li a {
+    text-decoration: none;
+    color: #101010;
+    
+}
+.lich_hen2 .secmenu ul li a:hover{
+    color: #FF9900;
+    
+}
+
+.table_yellow2 {
+    margin-top: 1%;
+    border: 1px solid  #ddd;
+    background-color: #FF9900;
+    width: 25%;
+    margin-left: 2%;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    height: 17px;
+}
+
+.lich_conditon2 {
+    margin-left: 25px;
+    margin-top: 20px;
+   
+}
+
+.dropdown2 .btn {
+    height: 30px;
+    width: 23%;
+    justify-content: center;
+    border :#ddd solid 1px;
+    border-radius: 3px;
+}
+.dropdown-menu {
+    width: 250px;
+    height: 180px;
+    flex-direction: column;
+    
+}
+.dropdown-menu .text{
+    font-size: 14px;
+    padding-left: 25px;
+}
+
+.lich_box2 {
+    float: right;
+    margin-right: 2%;
+    margin-top: -29px;
+    position: relative;
+   
+}
+
+.select_condition2 {
+    height: 30px;
+    width: 80%;
+    border-radius: 3px #EEEEEE; 
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.saves2{
+    width: 100%;
+    margin-top: 20px;
+    justify-content:space-around;
+    display: flex;
+    }
+.saves2 .add{
+        width: 150px;
+        height: 30px;
+        border-radius: 2px ;
+        background-color: #FF9900;
+        border: 1px solid #ddd;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 13px;
+        color: white;
+        letter-spacing: 1px;
+}
+.saves2 .back{
+        width: 70px;
+        height: 30px;
+        border-radius: 2px ;
+        border: 1px solid #ddd;
+        background-color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 13px;
+}
+
+.lich_box2 input#search{
+    height: 30px; 
+    width: 750px;
+    padding-left: 25px;
+    letter-spacing: 1px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.lich_box2 .icon{
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    z-index: 1;
+    color: #CCCCCC;
+}
+
+
+.table_patient2  {
+    width: 100%;
+   
+} 
+.table_class2 {
+   width: 96%;
+   margin-top: 2%;
+   border-collapse: collapse;
+   margin-left: 2%;
+   border: 1px solid  #ddd; 
+}
+.table_bn2 {
+    border: 1px solid  #ddd; 
+
+}
+.table_patient2 td {
+    border: none ;
+    text-align: center;
+    padding: 8px;
+   
+}
+
+.table_class2 tr {
+    border: 1px solid  #ddd; 
+    text-align: center;
+}
+
+.table_patient2 th {
+    background-color: white;
+    border:none;
+    padding: 8px;
+    
+}
+
+@media screen and (max-width: 900px) {
+    .lich_box2 input#search {
+        width: 450px;
+    }
+
+    .dropdown2 .btn{
+        width: 30%;
+        border-radius: 5px;
+        border: #ddd solid 1px;
+        margin-left: -10px;
+    }
+
+    .table_yellow2{
+        width: 40%;
+        height: 20px;
+    }
+
+    .lich_box2 .icon {
+        position: absolute;
+        top: 3px;
+        left: 7px;
+        z-index: 1;
+        color: #CCCCCC;
+    }
+    
+}
+
+@media screen and (max-width: 430px){
+    .lich_hen2{
+        height: 450px;
+    }
+    .lich_conditon2{
+        margin-top: 50px ;
+    
+    }
+
+    .dropdown2 .btn{
+        margin-left: -4%;
+        width: 99%;
+    }
+
+    .lich_box2{
+            margin-top: -70px;
+    }
+    .lich_box2 input#search {
+        margin-left: -26%;
+        width: 123%;
+    }
+
+    .lich_box2 .icon {
+        position: absolute;
+        top: 3px;
+        left: -50px;
+        z-index: 1;
+        color: #CCCCCC;
+    }
+
+    .table_yellow2{
+        margin-top: 9px;
+        width: 91%;
+        margin-left: 14px;
+        height: 20px;
+    }
+
+    .table_patient2 {
+        width: 94%;
+        margin-left: 3%;
+    }
+
+     /* Ẩn bớt cột */
+     .table_class2 th:nth-child(4),
+     .table_class2 td:nth-child(4),
+     .table_class2 th:nth-child(5),
+     .table_class2 td:nth-child(5),
+     .table_class2 th:nth-child(6),
+     .table_class2 td:nth-child(6)
+      {
+       display: none;
+     }
+
+}
+
+
+
+
+

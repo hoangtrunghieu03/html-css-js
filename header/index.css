@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    font-family: Helvetica ,Arial ,sans-serif, Color, Symbol, Color;
+    color: #313131;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fefefe;
+    color: #fff;
+    padding: 0px ;
+    z-index: 1;
+    border: solid 3px #ff0707;
+}
+
+.header .farba {
+    margin-left: 50px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: stretch;
+    margin-left: 20px;
+    margin: 18px;
+}
+
+.header .logo img {
+    height: 40px;
+    margin-right: 1447px;
+}
+.header .left-menu-trigger {
+    position: absolute;
+    top: 35px;
+    left: 1262px;
+    margin-right: 290px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header .left-menu {
+    position: absolute;
+    top: 60px;
+    right: 230px;
+    background-color: #e4f2f3;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 10px;
+    z-index: 1;
+    display: none;
+    width: 260px; 
+    border: 1px solid #eee4e4; 
+    border-radius: 5px; 
+}
+
+.header .left-menu.active {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.header .left-menu.active li a {
+    text-decoration: none;
+}
+
+.header .left-menu.active li {
+    color: black; 
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #eee4e4; 
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 8px; 
+}
+
+.notification-count {
+    background-color: rgb(240, 161, 14);
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 6px;
+    margin-left: 5px;
+}
+
+.notification-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notification-list li {
+    margin-bottom: 5px;
+}
+
+.header .left-menu h1 {
+    color: #070707;
+}
+
+.header .left-menu a {
+    color: #070707;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.header .left-menu-trigger .notification-count {
+    background-color: #f15608;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: -7px;
+    left: 7px;
+}
+
+.header .right-menu {
+    position: absolute;
+    top: 35px;
+    right: 4px;
+    margin-right: 96px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width:10px;
+}
+
+.header .right-menu .notification {
+    color: #000000;
+    position: absolute;
+    top: 26px;
+    right: 8px;
+    background-color: #f2eeee;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 10px;
+    z-index: 1;
+    display: none;
+    
+}
+
+.header .right-menu:hover .notification {
+    display: block;
+    transition: ease-in-out;
+}
+
+.header .right-menu:hover .notification > ul > div > li {
+    display: block;
+    color: black; 
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #fdfdfd; 
+    padding: 15px; 
+    
+}
+
+.header .right-menu .notification-count {
+    background-color: #f15608;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: -6px;
+    right: -19px;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer .menu {
+    width: 15%;
+    padding: 30px;
+    height: 800px;
+    border: solid 3px #eaea03;
+}
+
+.footer .content {
+    width: 85%;
+    padding: 30px;
+    height: 800px;
+    border: solid 3px #000000;
+}
+@media screen and (max-width: 900px) {
+    .left-menu-trigger {
+        margin-left: -616px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .left-menu-trigger {
+        margin-left: -741px;
+    }
+   .left-menu active{
+    margin-top: 25px;
+   }
+}
+
+  @media screen and (max-width: 430px) {
+   .left-menu-trigger {
+      margin-left:-961px;
+    }
+
+    .notification-list active {
+      padding: 10px; 
+      margin-left: 27px;;
+    }
+
+    .right-menu {
+      text-align: center;
+      left: 342px; 
+    }
+    
+    .notification{
+        left:29px;
+    }
+
+  }
+
+
